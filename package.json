@@ -1,0 +1,23 @@
+{
+  "name": "stanford-rec-scraping",
+  "version": "1.0.0",
+  "description": "Scraping Stanford Recreation's facility utilization data",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zane-programs/stanford-rec-scraping.git"
+  },
+  "author": "Zane St. John",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/zane-programs/stanford-rec-scraping/issues"
+  },
+  "homepage": "https://github.com/zane-programs/stanford-rec-scraping#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.0"
+  }
+}
